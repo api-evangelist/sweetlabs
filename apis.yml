@@ -1,8 +1,26 @@
 aid: sweetlabs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sweetlabs.png
 name: SweetLabs
-description: 'SweetLabs is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'SweetLabs is a San Diego-based software company that builds consumer
+  applications and app-distribution, discovery, and personalization software for device
+  manufacturers (OEMs), helping them differentiate their PCs and devices through preloaded
+  and recommended app experiences. The company is backed by Google Ventures (GV). It
+  operates as a corporate and consumer-software business: its public web presence is
+  a marketing and careers site, and as of this enrichment pass SweetLabs does not
+  publish a public developer API, SDK, MCP server, or developer portal, so no API
+  artifacts were harvested. This profile captures the identity and domain-security
+  posture that could be verified from its public surface.'
 url: https://raw.githubusercontent.com/api-evangelist/sweetlabs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Enterprise
+- Software
+- App Distribution
+- Device Manufacturers
+- Consumer Software
+- OEM
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +47,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://sweetlabs.com
+  url: https://sweetlabs.com
+- type: TermsOfService
+  url: http://r.sweetlabs.com/terms
+- type: PrivacyPolicy
+  url: http://r.sweetlabs.com/privacy-policy
+- type: DomainSecurity
+  url: security/sweetlabs-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
